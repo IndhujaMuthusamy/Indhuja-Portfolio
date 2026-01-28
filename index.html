@@ -6,13 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Indhuja Portfolio</title>
 
-    <!-- styling CSS -->
+    <!-- Google fonts family -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
         rel="stylesheet">
+
+    <!-- Font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- styling CSS -->
 </head>
 
 <body>
@@ -29,9 +36,138 @@
             </ul>
         </div>
         <div>
-            <button>DOWNLOAD CV</button>
+            <button class="btn btn-dark-outlined">DOWNLOAD CV</button>
         </div>
     </header>
+
+    <main>
+        <section class="hero-section">
+            <div>
+                <div>
+                    <h4 title="hello, How are you?">Hi there,</h4>
+                    <h2 class="hero-section_title">I'm <span>Indhuja</span></h2>
+                    <p class="hero-section_desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic provident
+                        ipsum laboriosam tenetur
+                        quidem dolores dolorem error nostrum neque est nam minus omnis dolor a, incidunt ullam quod
+                        ratione
+                        consequuntur?</p>
+                </div>
+
+                <!-- Social icons will be appeared here -->
+                <ul class="social-icons">
+                    <li>
+                        <a href="https://fb.me//IndhujaMuthusamy" target="_blank"><i
+                                class="fa-brands fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-linkedin" target="_blank"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-instagram" target="_blank"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-brands fa-twitter" target="_blank"></i></a>
+                    </li>
+                </ul>
+
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Hire me</button>
+                    <button class="btn btn-dark-outlined">Download CV</button>
+                </div>
+            </div>
+
+            <div>
+                <img src="https://www.schulmeister-consulting.com/fileadmin/user_upload/01_static_pages/schulmeister-black-white-persons-barbara.png"
+                    alt="Indhuja Portfolio" width="400">
+            </div>
+
+        </section>
+
+        <!-- About Me -->
+        <section class="about-section">
+            <img src="https://www.entrepreneur.com/wp-content/uploads/sites/2/2016/12/20161214164224-GettyImages-533978993.jpeg"
+                alt="Indhuja Portfolio">
+
+            <div class="about-section_desc">
+                <h4>I am Product <span>Designer</span> <br> & Web Developer</h4>
+                <ul>
+                    <li><strong>Experience:</strong>8 years</li>
+                    <li><strong>Speciality:</strong>CyberSecurity</li>
+                    <li><strong>Address:</strong>India</li>
+                    <li><strong>Email:</strong><a href="mailto:indhujam2497@gmail.com"
+                            target="_blank">indhujam2497@gmail.com</a></li>
+                    <li><strong>Phone:</strong><a href="tel:+9487160138">+9487160138</a> </li>
+                </ul>
+                <button class="btn btn-primary">Know more</button>
+            </div>
+        </section>
+
+        <!-- My Works -->
+        <section class="work-section">
+            <h4 class="work-section_title">My <span>Works</span></h4>
+
+            <div class="work-section_items">
+                <div class="work-section_box">
+                    <!-- icon will be here shortly -->
+                    <span class="work-section_box-icon">
+                        <i class="fa-solid fa-display"></i>
+                    </span>
+
+                    <div class="work-section_box_desc">
+                        <h4>UI/UX Design</h4>
+                        <p>Worked on several open source projects with Google etc.</p>
+                    </div>
+                    <a href="#">See my work here...</a>
+                </div>
+
+                <div class="work-section_box">
+                    <!-- icon will be here shortly -->
+                    <span class="work-section_box-icon">
+                        <i class="fa-solid fa-flask"></i>
+                    </span>
+
+                    <div class="work-section_box_desc">
+                        <h4>Frontend Development</h4>
+                        <p>Worked with HTML, CSS, Bootstrap, Tailwindcss.</p>
+                    </div>
+                    <a href="#">See my work here...</a>
+                </div>
+
+                <div class="work-section_box">
+                    <!-- icon will be here shortly -->
+                    <span class="work-section_box-icon">
+                        <i class="fa-solid fa-globe"></i>
+                    </span>
+
+                    <div class="work-section_box_desc">
+                        <h4>Backend Development</h4>
+                        <p>Worked with PHP, NodeJS, Python, etc.</p>
+                    </div>
+                    <a href="#">See my work here...</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Me -->
+        <section class="contact-section">
+            <h4>Contact <span>Me</span></h4>
+            <form>
+                <div> <input type="text" name="name" placeholder="Full Name"></div>
+                <div> <input type="text" name="subject" placeholder="Whats the matter?"></div>
+                <div> 
+                    <!-- <input type="text" name="description" placeholder="Enter briefly..."> -->
+                    <textarea name="description" rows="5" placeholder="Brief shortly..."></textarea>
+                </div>
+            </form>
+            <div>
+                <button class="btn btn-primary">Send a message</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2023-<a href="https://github.com/IndhujaMuthusamy" target="_blank">Indhuja</a>-Rights Reserved</p>
+    </footer>
 </body>
 
 </html>
